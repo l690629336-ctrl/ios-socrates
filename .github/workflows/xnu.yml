@@ -248,3 +248,4 @@ jobs:
         run: |
           echo "compile errors: $(grep -c -E ' error:' build.log || true)"
           grep -E ' error:' build.log | sort -u | head -40 || true
+# fork build marker (registration only; no logic change)
